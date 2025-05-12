@@ -1,3 +1,6 @@
-for x in range (20,0,-1):
-    if x %2 ==0:
-        print(x)
+soma = 0
+for x in range (5):
+    num = int(input("Digite o número: "))
+    soma = soma + num
+media = soma / 5
+print(f"Média = {media}")
